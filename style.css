@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2,h3{
+    color: #303030;
+}
+.grey-color{
+    color: #686868;
+}
+.used-font{
+    font-family: 'Alegreya', serif;
+}
+.bg-dark{
+    background-color: #f8f8f8;
+}
+.container{
+    margin: auto;
+    width: 90%;
+}   
+/*start home Section */
+.home{
+    height: 100vh;
+    background-image:url(images/drew-coffman-1872.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+/* Navbar  */
+.navbar{
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left:0; 
+    right: 0;
+}
+.navbar img{
+    width: 15%;
+    float: left;
+    padding: 5px 0px;
+}
+.navbar ul{
+    float: right;
+    padding:25px 0px;
+}
+.navbar ul li{
+    float: left;
+    font-size: 18px;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #aa8a98;
+    margin: 0px 15px;
+}
+.navbar ul li a:hover{
+    color: #000;
+}
+.clear{
+    clear: both;
+}
+
+/* Header */
+.about{
+    background-color: #fff;
+}
+.header{
+
+    text-align: center;
+    padding-top: 170px;
+    color: #fff;
+}
+.header h3{
+    font-size: 22px;
+    font-weight: 100;
+    color: #fff;
+}
+.header h1{
+    font-size: 76px;
+    font-weight: 500;
+}
+.header p{
+    margin-top: 5px;
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+.btn{
+    border: none;
+    color: #fff;
+    font-weight:800;
+    padding: 15px 28px;
+    border-radius: 5px;
+    margin-right: 12px;
+    border: 2px solid;
+}
+.btn:hover{
+    background-color: #fff;
+    color:#303030;
+}
+.bg-cafe{
+    border-color:  transparent;
+    background-color: #8e7754;
+}
+.bg-transparent{
+    border-color: #fff;
+    background-color: transparent;
+}
+
+
+/* circle */
+
+.circle{
+    width: 30px;
+    height: 60px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 24px;
+    text-align: center;
+    margin: auto;
+    margin-top: 50px;    
+}
+
+/* scroll image */
+.scroll-img{
+    position: fixed;
+    padding-top: px;
+    right: 0;
+    top: 30%;
+    
+}
+.scroll-img img{
+    
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+/*end home Section */
+
+
+/*start about Section */
+.about{
+    padding: 90px 0px 90px 0px;
+}
+.block{
+    width: 50%;
+    float: left;
+    padding: 0px 25px;
+}
+.about .block .about-img{
+    width: 100%;    
+}
+.block ul li img{
+    margin-bottom: -16px;
+}
+.block h3{
+    font-size: 32px;
+    font-weight: 100;
+    margin-bottom: 30px;
+    color: #303030;
+}
+.block p{
+    font-size: 17px;
+    color: #686868;
+    margin-bottom: 30px;
+}
+.p-inline{
+    display: inline-block;
+}
+.block ul li{
+    list-style: none;
+}
+/*end about Section */
+
+/*start our location */
+.location{
+    padding: 80px 0px;
+}
+.location .block img{
+    width: 100%;
+}
+/*end our location */
+
+
+/*start Our Baking */
+.baking{
+    text-align: center;
+    padding: 70px 0px 70px 0px;
+}
+.baking .item{
+    width: 33.3333333%;
+    float: left;
+    padding:0px 20px 80px 20px;
+}
+.baking .item img{
+    width:100%;  
+}
+.baking .heading h3{
+    font-size: 30px;
+    font-weight: 300;
+}
+.baking .heading p{
+    padding: 20px 0px 20px 0px;
+    font-size: 17px;
+}
+.item h4{
+    color: #303030;
+    font-size: 22px;
+    font-weight: 300;
+    padding: 30px 0px;
+}
+/*end our Baking */
+
+
+/*Start Contact information */
+.contact{
+    padding: 90px 0px; 
+}
+.contact .contact-info h2{
+    font-size: 32px;
+    font-weight: 100;
+    padding-bottom: 30px;
+}
+.contact .contact-info{
+    width: 50%;
+    float: left;
+    padding: 0px 25px;
+}
+.contact-img{
+    margin-top: 17px;
+}
+.contact iframe{
+    width: 100%;
+}
+.contact .contact-info ul{
+    list-style: none;
+}
+.contact .contact-info ul li img{
+    margin-bottom: -13px;
+}
+/* end contact information */
+
+
+
+/*start dark section */
+.dark-section{
+    background-color: #403d38;
+    padding: 40px 0px;
+    color: #fff;
+}
+.grey-font{
+    color: #969696;
+}
+.dark-section .box{
+    width: 25%;
+    float: left;
+    padding: 0px 18px;    
+}
+.dark-section h4{
+    font-size: 18px;
+    font-weight: 100;
+    padding: 25px 0px;
+    color: #fff;
+}
+.dark-section p{
+    font-size: 16px;
+    padding: 10px 0px;
+}
+.dark-section ul li{
+    list-style: none;
+    padding:15px 0px 
+}
+
+.dark-section .box .back-img{
+    
+    background-image: url(images/contact-details-map.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.dark-section .box .details-container{
+    padding:12px 0px 
+
+}
+.dark-section .box span{
+    word-wrap: break-word;
+}
+
+/*end dark section */
+
+
+/*start footer section */
+.footer{
+    background-color: #353330;
+    text-align: center;
+    padding-top: 70px;
+}
+.footer p{
+    font-size: 16px;
+    color: #777;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/*end footer section */
+
+
+
+/* media query */
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    /* home section */
+    .header h3{
+        font-size: 20px;
+        font-weight: 100;
+    }
+    .header h1{
+        font-size: 66px;
+        font-weight: 400;
+    }
+    .header p{
+        margin-top: 3px;
+        margin-bottom: 30px;
+        font-size: 20px;
+    }
+    .btn{
+        padding: 12px 25px;
+        border-radius: 5px;
+        margin-right: 10px;
+    }
+    /* backing section */
+    .baking .item{
+        width: 50%;
+        float: left;
+        padding:0px 20px 80px 20px;
+    }
+    .dark-section .box{
+        width: 33.3333%;
+        float: left;
+        padding: 20px 10px;    
+    }
+
+}
+@media screen and (max-width: 767px) and (min-width: 600px) {
+    /* home section */
+    .navbar ul{
+        padding:15px 0px;
+    }
+    .header h3{
+        font-size: 19px;
+        font-weight: 100;
+    }
+    .header h1{
+        font-size: 65px;
+        font-weight: 400;
+    }
+    .header p{
+        margin-top: 4px;
+        margin-bottom: 20px;
+        font-size: 19px;
+    }
+    .btn{
+        padding: 12px 22px;
+        border-radius: 5px;
+        margin-right: 9px;
+    }
+    .header{
+        padding-top: 180px;
+    }
+
+    .block{
+        width: 100%;
+        float: left;
+        padding: 20px 0px;
+    }
+    .baking .item{
+        width: 100%;
+        float: left;
+        padding:20px 0px;
+    }
+
+    .contact .contact-info{
+        width: 100%;
+        float: left;
+        padding: 20px 0px;
+    }
+    .dark-section .box{
+        width: 50%;
+        float: left;
+        padding: 20px 10px;    
+    }
+
+}
+    @media screen and (max-width: 599px)  {
+    /* home sectoin */
+    .header h3{
+        font-size: 17px;
+        font-weight: 100;
+    }   
+    .header h1{
+        font-size: 57px;
+        font-weight: 300;
+    }
+    .header p{
+        margin-top: 3px;
+        margin-bottom: 18px;
+        font-size: 16px;
+    }
+    .btn{
+        padding: 8px 18px;
+        border-radius: 5px;
+        margin-right: 7px;
+    }
+    .header{
+        padding-top: 220px;
+    }
+    .navbar ul li a{
+        margin: 0px 10px;
+    }
+    .navbar img{
+        width: 20%;
+        float: left;
+        padding: 5px 0px;
+        margin-left: 160px;
+    }
+
+    .baking .item{
+        width: 100%;
+        float: left;
+        padding:20px 0px;
+    }
+    .contact .contact-info{
+        width: 100%;
+        float: left;
+        padding: 20px 0px;
+    }
+    .dark-section .box{
+        width: 100%;
+        float: left;
+        padding: 20px 10px;    
+    }
+
+
+} 
